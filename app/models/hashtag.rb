@@ -1,5 +1,5 @@
 class Hashtag < ApplicationRecord
-    validates :name, precsence: true
+    validates :name, presence: true
 
-    has_many :hashtegs
+    has_many :hashtags
 end
